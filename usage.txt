@@ -1,0 +1,54 @@
+<app.js>
+
+line 16 : secret access key
+line 17 : access key id
+line 18 : region
+
+
+AWS RDS
+
+line 24 : host (db endpoint)
+line 25 : username 
+line 26 : password 
+line 27 : database name
+
+line 39 : session key string (optional)
+	
+
+AWS S3
+
+line 363 : bucketName
+line 389 : prefix (bucketAccess url) like 'https://s3.region.amazonaws.com/bucketName/';
+
+line 393,
+line 417 : bucketName
+
+---------------------------------------------------------------------------------------------
+<index.html>
+
+line 10~14 and 21 : ec-127-0-0-1.region -> ec2-public-ip.region-code
+
+---------------------------------------------------------------------------------------------
+<init.js>
+
+32, 108,  : localhost -> ec2-public-ip
+
+---------------------------------------------------------------------------------------------
+<memo.js>
+
+line 6 : localhost -> ec2 public ip
+
+line 73 : src =  ec-127-0-0-1.region -> ec2-public-ip.region-code
+
+---------------------------------------------------------------------------------------------
+<schedule.js>
+
+line 491 : localhost -> ec2-public-ip
+
+---------------------------------------------------------------------------------------------
+<archive.js>
+
+line 26, 45, 103 : localhost -> ec2-public-ip
+
+
+코드 중복 죄송합니다..ㅎ (Sorry for duplicate source code)
