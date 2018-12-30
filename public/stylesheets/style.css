@@ -1,0 +1,140 @@
+#header_wrapper {
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#body_wrapper {
+    width: 996px;
+    height: 769px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#body_memo {
+    border-radius: 2em;
+    position: relative;
+    width: 996px;
+    background-color: azure;    
+    border: 3px solid rgb(0, 204, 153);
+}
+
+#ajaxform {
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#userFile {
+    margin-top: 10px;
+}
+
+#username {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    color: blue;
+    font-size: 40px;
+}
+
+#menuBar {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    width: 100%;
+    border: 3px solid rgb(0, 204, 153);
+    border-radius: 1em;
+    left: -3px;
+}
+
+#menuBar ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+#menuBar ul li {
+    padding: 0;
+    float: left;
+    margin: 0 40px;
+}
+
+#menuBar ul li div {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 150px;
+    height: 30px;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(127, 127, 127);
+}
+
+#menuBar ul li div.select {
+    color: rgb(0, 204, 153);
+}
+
+#menuBar ul li div:hover {
+    color: rgb(0, 204, 153);
+    cursor: pointer;
+}
+
+#body_wrapper > div {
+    display: none;
+}
+
+#body_wrapper > div.select {
+    display: block;
+}
+/* login ------------------------------------------------------------------------*/
+#login_wrapper {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: center;
+    align-items: center;
+
+    /* background-color: blue; */
+}
+
+#login_wrapper > form > input{
+    text-align: center;
+}
+
+#signUp_form{
+    display: none;
+}
+
+#modal {
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(1,1,1,0.8);
+    text-align: center;
+    color: white;
+}
+
+#modal2 {
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(1,1,1,0.8);
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "mnote",
+  "version": "1.0.0",
+  "description": "Mnote-Prototype of Miracle Project by hss.",
+  "main": "app.js",
+  "scripts": {
+    "test": "Hello Miracle"
+  },
+  "keywords": [
+    "Mnote"
+  ],
+  "author": "SongSik Hwang",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.360.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "multer": "^1.4.1",
+    "multer-s3": "^2.9.0",
+    "mysql": "^2.16.0"
+  }
+}

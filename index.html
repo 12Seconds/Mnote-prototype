@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>Miracle Note</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://ec2-127-0-0-1.ap-northeast-2.compute.amazonaws.com:3000/stylesheets/style.css">
+    <script type="text/javascript" src="http://ec2-127-0-0-1.ap-northeast-2.compute.amazonaws.com:3000/js/init.js"></script>
+    <script type="text/javascript" src="http://ec2-127-0-0-1.ap-northeast-2.compute.amazonaws.com:3000/js/schedule.js"></script>
+    <script type="text/javascript" src="http://ec2-127-0-0-1.ap-northeast-2.compute.amazonaws.com:3000/js/memo.js"></script>
+    <script type="text/javascript" src="http://ec2-127-0-0-1.ap-northeast-2.compute.amazonaws.com:3000/js/archive.js"></script>
+</head>    
+
+<body>
+
+    <div id="login_wrapper" style="display:none">
+
+        <p id="logo"><img src="http://ec2-127-0-0-1.ap-northeast-2.compute.amazonaws.com:3000/images/logo.png"></p>
+
+        <div id="signIn_form">
+            <input type="text" , id="signIn_id" , name="id" , placeholder="아이디"><br>
+            <input type="password" id="signIn_pw" , name="pw" , placeholder="비밀번호"><br>
+            <button id="signIn_reqBtn" type="button">로그인</button>
+        </div>
+
+        <br>
+
+        <button id="signUp_showBtn" type="button">회원가입</button>
+
+        <div id="signUp_form">
+            <input type="text" , id="signUp_nm" , name="nm" , placeholder="사용할 이름"><br>
+            <input type="text" , id="signUp_id" , name="id" , placeholder="사용할 아이디"><br>
+            <input type="text" , id="signUp_pw" , name="pw" , placeholder="사용할 비밀번호"><br>
+
+            <button id="signUp_reqBtn" type="button">생성</button>
+        </div>
+
+    </div>
+
+
+    <div id="after" style="display:none">
+        <!--임시로 안보이게-->
+        <div id="header_wrapper">
+            <div id="username">
+                로그인시 뜰 이름
+            </div>
+            <div id="menuBar">
+                <ul>
+                    <li>
+                        <div id="head_schedule">SCHEDULE</div>
+                    </li>
+                    <li>
+                        <div id="head_memo" class="select">MEMO</div>
+                    </li>
+                    <li>
+                        <div id="head_archive">ARCHIVE</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="body_wrapper">
+            <div id="body_schedule"></div>
+            <div id="body_memo" class="select"></div>
+            <div id="body_archive">
+                <form id="ajaxform" action="/imageUpload" method="post" enctype="multipart/form-data">
+                    <input type="file" id="userFile" accept="image/*">
+                    <input type="button" value="업로드" id="sendFileBtn">
+                </form>
+            </div>
+        </div>
+
+        <div id="modal"></div>
+        <div id="modal2"></div>
+    </div>
+</body>
+
+</html>
