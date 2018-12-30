@@ -28,8 +28,8 @@ You can use the three functions of post memo / schedule / achievement and achiev
 - EC2 인스턴스에 프로젝트 폴더 복사
   Copy this project folder to EC2 instance.
   
-- EC2 인스턴스에 npm 설치 
-  Install npm in EC2 instance.
+- EC2 인스턴스에 Node.js 설치
+  Install Node.js in EC2 instance.
 
 - 'usage.txt' 파일을 참고하여 약간의 소스코드 수정
   Modify some source code by referring to 'usage.txt'
