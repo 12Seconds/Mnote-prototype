@@ -1,4 +1,4 @@
-# Miracl Note
+# Miracle Note
 Mnote prototype of Miracle Project (2018.11 ~ 2018.11)
 
 본 프로젝트는 클라우드 컴퓨팅 서비스인 아마존 웹 서비스를 이용하여 설계/제작된 웹 서비스입니다.
