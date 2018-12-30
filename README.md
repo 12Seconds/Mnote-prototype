@@ -13,7 +13,7 @@ You can use the three functions of post memo / schedule / achievement and achiev
  - 강경한 Kang Kyung Han (Front-end : JavaScript, CSS)
  - 황송식 Hwang Song Sik ( Back-end : Node.js, MySQL, Amazon Web Services)
 
-# 도움 Special Thanks to
+# 도움 Special thanks to
  - 이하규 Lee Ha Kyu
  
 # 환경 Environment
@@ -21,7 +21,7 @@ You can use the three functions of post memo / schedule / achievement and achiev
 - Storage : Amazon Simple Storage Service (AWS S3)
 - Database : Amazon Relational Database Service (AWS RDS MySQL)
 
-# 사용 Usage
+# 사용법 Usage
 - AWS 가입 및 인스턴스 생성 및 초기화 작업 
   SignUp to AWS and make instances and initiate them. (EC2, RDS, S3 Bucket)
   
