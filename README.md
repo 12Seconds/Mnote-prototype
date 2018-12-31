@@ -5,9 +5,8 @@ Mnote prototype of Miracle Project (2018.11 ~ 2018.11)
 최적의 접근성과 편의성을 갖춘 서비스를 통해 자기 개발 실현의 기회를 제공하는것이 본 서비스의 목적으로
 포스트 메모 / 일정 관리 / 성과 및 업적 기록 의 세 가지 기능을 사용해 보실 수 있습니다.
 
-This project is a web service designed and built using Amazon Web Services, a cloud computing service.
-Providing opportunities for realizing self-development through services with optimal accessibility and convenience is the our purpose.
-You can use the three functions of post memo / schedule / achievement and achievement record.
+M-note is a web service platform designed and built using a cloud computing service called Amazon Web Services (AWS). 
+A project with the sole purpose of providing an accessible tool for individuals to focus on self-development, planning, and organization with ease and convenience by using the main functions: Post Memo, Schedule, Achievement and Achievement Record.
 
 # 개발 Developers
  - 강경한 Kang Kyung Han (Front-end : JavaScript, CSS)
