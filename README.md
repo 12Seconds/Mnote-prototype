@@ -8,6 +8,8 @@ Mnote prototype of Miracle Project (2018.11 ~ 2018.11)
 M-note is a web service platform designed and built using a cloud computing service called Amazon Web Services (AWS). 
 A project with the sole purpose of providing an accessible tool for individuals to focus on self-development, planning, and organization with ease and convenience by using the main functions: Post Memo, Schedule, Achievement Record.
 
+http://13.209.74.48:3000/
+
 # 개발 Developers
  - 강경한 Kang Kyung Han (Front-end : JavaScript, CSS)
  - 황송식 Hwang Song Sik ( Back-end : Node.js, MySQL, Amazon Web Services)
