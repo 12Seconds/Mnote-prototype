@@ -10,6 +10,11 @@ A project with the sole purpose of providing an accessible tool for individuals 
 
 http://13.209.74.48:3000/
 
+![pic1](./mnote_architecture.png)
+![pic2](./mnote_memo.png)
+![pic3](./mnote_schedule.png)
+![pic4](./mnote_archive.png)
+
 # 개발 Developers
  - 강경한 Kang Kyung Han (Front-end : JavaScript, CSS)
  - 황송식 Hwang Song Sik ( Back-end : Node.js, MySQL, Amazon Web Services)
