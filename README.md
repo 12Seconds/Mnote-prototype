@@ -46,8 +46,8 @@ A project with the sole purpose of providing an accessible tool for individuals 
   
 # 부족한 점 Insufficient Point
 - 로그아웃 미구현 
-  No Session logout
+  No session logout
 - 성과 및 업적 기록 기능에 동영상 기능 미구현 
-  You Can't upload Videos yet in Archive function
+  You can't upload videos yet in archive function
 - 일정 관리 기능 버그 존재 
-  There are Some bugs in Schedule function
+  There are some bugs in schedule function
