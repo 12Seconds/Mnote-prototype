@@ -45,7 +45,7 @@ A project with the sole purpose of providing an accessible tool for individuals 
   Run 'node app.js' in project folder
   
 # 부족한 점 Insufficient Point
-- 세션 로그아웃 미구현 
+- 로그아웃 미구현 
   No Session logout
 - 성과 및 업적 기록 기능에 동영상 기능 미구현 
   You Can't upload Videos yet in Archive function
