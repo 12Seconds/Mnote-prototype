@@ -8,7 +8,7 @@ Mnote prototype of Miracle Project (2018.11 ~ 2018.11)
 M-note is a web service platform designed and built using a cloud computing service called Amazon Web Services (AWS). 
 A project with the sole purpose of providing an accessible tool for individuals to focus on self-development, planning, and organization with ease and convenience by using the main functions: Post Memo, Schedule, Achievement Record.
 
-### http://13.209.74.48:3000/  (TEST) ID : user / PW : 1234
+~~### http://13.209.74.48:3000/  (TEST) ID : user / PW : 1234~~
 
 ![pic1](./pictures/mnote_functions.png)
 ![pic2](./pictures/mnote_architecture.png)
